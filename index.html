@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Menda Charmi - Full Stack Developer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <nav>
+      <div class="nav-content">
+        <div class="logo">MC</div>
+        <div class="nav-links">
+          <a href="/" aria-current="page">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="theme-toggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content" data-aos="fade-up">
+          <div class="hero-text">
+            <h1>Menda Charmi</h1>
+            <p class="subtitle">Full Stack Developer</p>
+              <p class="summary">
+                Highly motivated and analytical full stack developer with a strong foundation in modern web technologies. Passionate about creating responsive, user-friendly applications that solve real-world problems.
+              </p>
+            
+            <section id="about" class="section" data-aos="fade-up">
+              <h2><i class="fas fa-user"></i> About Me</h2>
+                <div class="about-content">
+                  <p>
+                    I'm <strong>Menda Charmi</strong>, a dedicated Full Stack Developer with hands-on experience in building user-centric web applications. My expertise spans both frontend and backend technologies, and I enjoy turning ideas into scalable, efficient, and visually appealing solutions.
+                  </p>
+                  <p>
+                    Currently pursuing a B.Tech in AI & ML, I stay curious and constantly evolve with the latest development trends. I’m passionate about solving real-world problems through code and always aim to bridge design with functionality.
+                  </p>
+                </div>
+              </section>
+            </section>
+            
+            <div class="cta-buttons">
+              <a href="#contact" class="cta-primary">Get in Touch</a>
+              <a href="#projects" class="cta-secondary">View Projects</a>
+            </div>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item" data-aos="fade-left" data-aos-delay="200">
+              <span class="stat-number">1+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item" data-aos="fade-left" data-aos-delay="400">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item" data-aos="fade-left" data-aos-delay="600">
+              <span class="stat-number">7+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Education Section with Additional Schooling -->
+      <section id="education" class="section" data-aos="fade-up">
+        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+        <div class="projects-grid">
+          <div class="project-card" data-aos="zoom-in">
+            <div class="project-header">
+              <i class="fas fa-school project-icon"></i>
+              <h3>ANIL NEERUKONDA INSTITUTE OF TECHNOLOGY AND SCIENCES</h3>
+            </div>
+            <p class="date">2022 - Present</p>
+            <div class="project-content">
+              <p>B.Tech (AIML)</p>
+              <p class="highlight">CGPA: 9.36</p>
+            </div>
+          </div>
+        
+          <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="project-header">
+              <i class="fas fa-university project-icon"></i>
+              <h3>KAKINADA ADITYA JUNIOR COLLEGE</h3>
+            </div>
+            <p class="date">2020 - 2022</p>
+            <div class="project-content">
+              <p>MPC (SC)</p>
+              <p class="highlight">CGPA: 9.78</p>
+            </div>
+          </div>
+        
+          <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
+            <div class="project-header">
+              <i class="fas fa-school project-icon"></i>
+              <h3>KESHAVA REDDY SCHOOL</h3>
+            </div>
+            <p class="date">2019 - 2020</p>
+            <div class="project-content">
+              <p>SSC</p>
+              <p class="highlight">CGPA: 9.6</p>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+      <!-- Projects Section with Additional Expense Tracker Project -->
+      <section id="projects" class="section" data-aos="fade-up">
+        <h2><i class="fas fa-code"></i> Projects</h2>
+        <div class="timeline">
+          <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-content">
+              <h3>Academic Management System</h3>
+              <p class="date">05/2024 - 06/2024</p>
+              <ul>
+                <li>Teachers can manage student records</li>
+                <li>Students can view transcripts</li>
+                <li>Includes login/signup and achievement tracking</li>
+              </ul>
+              <p class="highlight">Tech: React, Node.js, MongoDB, Express</p>
+            </div>
+          </div>
+           
+          <div class="timeline-item" data-aos="fade-left">
+            <div class="timeline-content">
+              <h3>E-Commerce Platform</h3>
+              <p class="date">03/2024 - 04/2024</p>
+              <ul>
+                <li>Real-time inventory and secure payments</li>
+                <li>User authentication and role-based access</li>
+              </ul>
+              <p class="highlight">Tech: Vue.js, Firebase, Stripe, Tailwind</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item" data-aos="fade-left">
+            <div class="timeline-content">
+              <h3>Library Management System</h3>
+              <p class="date">01/2025 - 02/2025</p>
+              <ul>
+                <li>Manage books, members, issuing & returns</li>
+                <li>Admin dashboard for tracking library status</li>
+                <li>Search functionality and reservation system</li>
+                <li>Login system with user roles (Admin/Student)</li>
+              </ul>
+              <p class="highlight">Tech: HTML, CSS, JavaScript, PHP, MySQL, Node.js</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-content">
+              <h3>Expense Tracker</h3>
+              <p class="date">03/2025 - 04/2025</p>
+              <ul>
+                <li>Track and manage daily expenses</li>
+                <li>Login, add/edit/delete expenses</li>
+              </ul>
+              <p class="highlight">Tech: HTML, CSS, Bootstrap, Node.js, Express.js, MongoDB, Render, Vercel</p>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+      <section id="skills" class="section" data-aos="fade-up">
+        <h2><i class="fas fa-laptop-code"></i> Skills</h2>
+        <div class="skills-container">
+          <div class="skills-category" data-aos="fade-right">
+            <h3>Frontend Development</h3>
+            <div class="skill-bars">
+              <div class="skill-bar">
+                <div class="skill-info">
+                  <span>HTML/CSS</span>
+                  <span>90%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-info">
+                  <span>JavaScript</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-info">
+                  <span>React</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skills-category" data-aos="fade-left">
+            <h3>Backend Development</h3>
+            <div class="skill-bars">
+              <div class="skill-bar">
+                <div class="skill-info">
+                  <span>Node.js</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-info">
+                  <span>Python</span>
+                  <span>75%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-info">
+                  <span>SQL</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="achievements" class="section" data-aos="fade-up">
+        <h2><i class="fas fa-trophy"></i> Achievements</h2>
+        <div class="achievements-list">
+          <div class="achievement-item" data-aos="fade-right">
+            <h3>NPTEL Certification - Programming in Java</h3>
+            <p>Completed a comprehensive course on Java fundamentals and advanced programming concepts.</p>
+          </div>
+          <div class="achievement-item" data-aos="fade-left">
+            <h3>NPTEL Certification - Cloud Computing</h3>
+            <p>Learned the fundamentals of cloud infrastructure, deployment models, and services.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section id="contact" class="section" data-aos="fade-up">
+        <h2><i class="fas fa-envelope"></i> Contact</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <p>9490222589</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>mendacharmi2005@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Srikakulam</p>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <p><a href="https://www.linkedin.com/in/menda-charmi-4999ba300" target="_blank">LinkedIn</a></p>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <p><a href="https://github.com/CharmiMenda" target="_blank">GitHub</a></p>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" name="name" required placeholder="Your Name" />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" required placeholder="Your Email" />
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+      
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Menda Charmi. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
